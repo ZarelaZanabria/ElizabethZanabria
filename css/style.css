@@ -6,7 +6,7 @@ body {
 h2 {
   font-size: 24px;
   text-transform: uppercase;
-  color: #303030;
+  color: #1f70b7;
   font-weight: 600;
   margin-bottom: 30px;
   font-family: Montserrat, sans-serif;
@@ -14,13 +14,13 @@ h2 {
 h4 {
   font-size: 19px;
   line-height: 1.375em;
-  color: #303030;
+  color: #1f70b7;
   font-weight: 400;
   margin-bottom: 30px;
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #4ecbf5;
+  background-color: #1f70b7;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -33,7 +33,7 @@ h4 {
   color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #4ecbf5 !important;
+  color: #1f70b7 !important;
   background-color: #fff !important;
 }
 .navbar-default .navbar-toggle {
@@ -41,7 +41,7 @@ h4 {
   color: #fff !important;
 }  
 .jumbotron {
-  background-color: #f4511e;
+  background-color: #1f70b7;
   color: #fff;
   padding: 100px 25px;
   font-family: Montserrat, sans-serif; 
@@ -49,25 +49,17 @@ h4 {
 
 .btn {
   padding: 10px 20px;
-  background-color: #0ab4ec;
+  background-color: #1f70b7;
   color: #f1f1f1;
   border-radius: 0;
   transition: .2s;
 }
-.btn:hover, .btn:focus {
-  border: 1px solid #0ab4ec;
-  background-color: #fff;
-  color: #000;
+strong {
+  font-weight: 700;
+  color: #1f70b7;
 }
-.carousel-inner img {
-  width: 100%; /* Set width to 100% */
-  padding: 50 0 0 0px;
-  margin: auto;
-}
-.carousel-caption h3 {
 
-  color: #fff !important;
-}
+
 @media (max-width: 600px) {
 .carousel-caption {
     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -84,15 +76,15 @@ h4 {
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
-  color: #4ecbf5;
+  color: #1f70b7;
 }
 
 .logo-small{
-color: #4ecbf5;
+color: #1f70b7;
 font-size : 50px;
 }
 .logo{
-color: #4ecbf5;
+color: #1f70b7;
 font-size: 200px;
 }
 .thumbnail {
@@ -118,6 +110,19 @@ padding: 0
 display: inline-block;
 }
 
+.fs2{
+  font-size: 30px;
+  text-align: center;
+  }
+  
+  .fs2 ul{
+  margin: 5px 0 0 0;
+  padding: 0
+  }
+  .fs2 li{
+  display: inline-block;
+  margin: 6px;
+  }
 .contact{
   align-content: center;
 }
@@ -134,35 +139,23 @@ display: inline-block;
   margin: 15px;
 }
 
-.carousel-caption h3 {
-  color: #fff !important;
+.textIcon{
+  font-size: 15px;
+  color:  #1f70b7;
 }
+
+.avatar{
+  border-radius: 50%;
+}
+
+
 @media (max-width: 600px) {
 .carousel-caption {
   display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
 }
 }
 
-@keyframes slide {
-0% {
-  opacity: 0;
-  transform: translateY(70%);
-} 
-100% {
-  opacity: 1;
-  transform: translateY(0%);
-}
-}
-@-webkit-keyframes slide {
-0% {
-  opacity: 0;
-  -webkit-transform: translateY(70%);
-} 
-100% {
-  opacity: 1;
-  -webkit-transform: translateY(0%);
-}
-}
+
 @media screen and (max-width: 768px) {
 .col-sm-4 {
   text-align: center;
