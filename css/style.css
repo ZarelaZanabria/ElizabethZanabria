@@ -20,7 +20,7 @@ h4 {
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #1f70b7;
+  background-color: #1fb752;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -157,6 +157,7 @@ display: inline-block;
 
 
 @media screen and (max-width: 768px) {
+
 .col-sm-4 {
   text-align: center;
   margin: 25px 0;
