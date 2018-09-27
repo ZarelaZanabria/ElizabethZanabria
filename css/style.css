@@ -62,10 +62,14 @@ strong {
   color: #1f70b7;
 }
 
-.container-fluides{
-  margin-left: 20%;
-    margin-right: 20%;
+.container-fluid {
+  padding: 60px 50px;
 }
+
+/* .container-fluides{
+  margin-left: 20%;
+  margin-right: 20%;
+} */
 .box-containt-skill{
   margin: 50% 60%
 }
@@ -146,6 +150,10 @@ display: inline-block;
   text-align: justify;
   margin: 15px;
 }
+
+.container-fluid {
+  padding: 60px 100px;
+}
 /* .container-fluid {
   padding: 60px 50px 0px 50px;
 } */
@@ -168,6 +176,9 @@ display: inline-block;
 
 
 @media screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 60px 50px;
+  }
 .box-conteiner-social{ 
 
   }
@@ -188,6 +199,9 @@ ul {
 }
 }
 @media screen and (max-width: 480px) {
+  .container-fluid {
+    padding: 60px 50px;
+  }
   .navbar-brand img{
     width: 30px;
   }
