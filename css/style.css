@@ -62,27 +62,10 @@ strong {
   color: #1f70b7;
 }
 
-.container-fluid {
-  padding: 60px 50px;
-}
-
-/* .container-fluides{
-  margin-left: 20%;
-  margin-right: 20%;
-} */
 .box-containt-skill{
   margin: 50% 60%
 }
 
-@media (max-width: 600px) {
-.carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-};
-}
-/* zare */
-.container-fluid {
-  padding: 60px 50px;
-}
 .bg-grey {
   background-color: #f6f6f6;
 }
@@ -154,24 +137,10 @@ display: inline-block;
 .container-fluid {
   padding: 60px 100px;
 }
-/* .container-fluid {
-  padding: 60px 50px 0px 50px;
-} */
 
 .textIcon{
   font-size: 15px;
   color:  #1f70b7;
-}
-
-.avatar{
-  border-radius: 50%;
-}
-
-
-@media (max-width: 600px) {
-.carousel-caption {
-  display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-}
 }
 
 
@@ -179,9 +148,7 @@ display: inline-block;
   .container-fluid {
     padding: 60px 50px;
   }
-.box-conteiner-social{ 
 
-  }
 
 .icon-habilitate{
   float: left;
