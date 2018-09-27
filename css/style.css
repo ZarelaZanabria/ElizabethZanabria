@@ -143,6 +143,12 @@ display: inline-block;
   color:  #1f70b7;
 }
 
+#Contactame{
+  padding: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 @media screen and (max-width: 768px) {
   .container-fluid {
